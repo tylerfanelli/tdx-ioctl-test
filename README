@@ -1,0 +1,8 @@
+tdx-ioctl-test
+==============
+
+Meant to be run in a TDX-capable machine with updated host kernel.
+
+To run the ioctl test:
+
+$ ./run.sh

@@ -1,0 +1,2 @@
+make
+./tdx-ioctl-test
