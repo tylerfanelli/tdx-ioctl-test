@@ -2,10 +2,13 @@
 #include <stdio.h>
 #include <stdint.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 #include <sys/ioctl.h>
 
 #include <linux/kvm.h>
+
+#include "tdx.h"
 
 static int tdx_caps(int);
 static void tdx_caps_print(struct kvm_tdx_capabilities *);
